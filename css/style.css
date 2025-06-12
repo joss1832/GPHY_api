@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+ 
+/*aqui comienzan las especificaciones del body*/
 body{
     display: flex;
     justify-content: center;
@@ -16,12 +17,15 @@ body{
     color: #f5f5f5;
 }
 
+/*aqui terminan las especificaciones del body*/
+
+/*especificaciones del input*/
 #contenedor_input{
     margin-top: 40px;
 }
 
 
-
+/*especificaciones de los errores*/
 .error {
     color: #d32f2f;
     background-color: #ffebee;
@@ -30,10 +34,12 @@ body{
     border-left: 4px solid #d32f2f;
 }
 
+/*especificaciones del mensaje de carga*/
 .cargando {
     color: #1976d2;
     font-style: italic;
 }
+
 
 .sin-resultados {
     text-align: center;
@@ -43,11 +49,13 @@ body{
     border-radius: 5px;
 }
 
+/*hacemos que los divs se acomoden horizontalmente */
 .gif-container {
     display: inline-block;
     margin: 10px;
 }
 
+/*limitamos la altura de cada gif*/
 .gif-img {
     max-height: 200px;
     border-radius: 5px;
